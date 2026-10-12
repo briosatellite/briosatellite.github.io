@@ -51,6 +51,8 @@ button:hover {
   position: sticky;
   top: 45%;
   transform: translate(0, -50%);
+  color: white;
+  text-align: center;
 }
 
 #container {
@@ -141,6 +143,7 @@ button:hover {
     padding: 0;
     margin-left: 4%;
     margin-right: 4%;
+    transform: none;
   }
   
   #FixedBG {
