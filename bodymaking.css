@@ -86,6 +86,11 @@ button:hover {
   transition: .5s ease;
 }
 
+.ratio img {
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
 .bios:hover img {
   opacity: 0.5;
   transition: .5s ease;
