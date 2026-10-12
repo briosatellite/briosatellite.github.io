@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body-Making</title>
+    <link href="/bodymaking.css" rel="stylesheet" type="text/css" media="all">
+  <style>
+  #FixedBG {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/bodymaking/wireBG.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+   img {
+  max-width: 100%;
+  display: block;
+  }
+    .ratio img {
+  aspect-ratio: 5/7;
+    }
+    
+  @media screen and (max-width: 900px) {
+   #FixedBG {
+    background-position: center top;
+    background-attachment: scroll;
+  }
+  }
+  
+  </style>
+  </head>
+  <body style="font-family = Courier">
+  <script src="/BodyMaking.js"></script>
+  <div id="FixedBG">
+  </div>
+  
+  <div id="container" style="margin-bottom: 2.5%">
+  <div id="navigation">
+  <img src="assets/BrioBlue4.png" style="margin: auto;">
+  <div id="container">
+  <!--<button type="button" onclick="EZ()" style="font-size: inherit; font-family: inherit">Toggle Font</button><br>-->
+  <h1><em>BODY-MAKING</em></h1>
+  A leatherworking project.
+  </div>
+  </div>
+  <div id="folio">
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra1.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra2.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra3.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra4.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra5.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra6.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra7.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra8.webp">
+    </div>
+    
+    <div id="column" class="ratio" tabindex="-1">
+      <img src="assets/bodymaking/Ultra9.webp">
+    </div>
+    
+  </div>
+  
+    
+    
+  </div>
+  <br>
+  
+  
+  </body>
+</html>
