@@ -1,11 +1,11 @@
 /* Style sheet for BrioSatellite. */
 
 a {
-  color: red;
+  color: yellow;
 }
 
 a:hover {
-  color: blue;
+  color: violet;
 }
 
 h1 {
