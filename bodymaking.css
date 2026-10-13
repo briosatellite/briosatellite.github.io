@@ -120,6 +120,10 @@ button:hover {
   width: 60%;
 }
 
+.desktopOnly {
+  display: initial;
+}
+
 @media screen and (max-width: 900px) {
   
   #body {
@@ -152,6 +156,10 @@ button:hover {
 
 .centered {
   width: 96%;
+}
+
+.desktopOnly {
+  display: none;
 }
   
   
