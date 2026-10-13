@@ -58,6 +58,7 @@ button:hover {
 #container {
   float: left;
   width: 100%;
+  box-sizing: border-box;
 }
 
 #folio {
