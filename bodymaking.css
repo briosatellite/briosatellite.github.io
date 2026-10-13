@@ -106,6 +106,14 @@ button:hover {
   background-color: #000000;
 }
 
+.bios a {
+  color: transparent;
+}
+  
+.bios:hover a, .bios:focus a {
+  color: white;
+}
+
 #caption {
   border: 1px solid black;
   background-color: white;
