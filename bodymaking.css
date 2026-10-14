@@ -1,5 +1,9 @@
 /* Style sheet for BrioSatellite. */
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 a {
   color: yellow;
 }
