@@ -143,8 +143,15 @@ button:hover {
   display: block;
 }
 
+.columnAid {
+  clear: left;
+}
+
 @media screen and (max-width: 900px) {
-  
+
+  .columnAid {
+    clear: none;
+  }
   #body {
     font-family: arial;
   }
