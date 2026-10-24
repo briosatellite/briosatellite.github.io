@@ -162,8 +162,14 @@ button:hover {
     width: 100%;
   }
 
-  .third, .half {
+  .third, {
     width: 44%;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+
+  .half {
+    width: 88%;
     margin-left: 4%;
     margin-top: 4%;
   }
