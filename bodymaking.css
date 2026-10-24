@@ -169,7 +169,7 @@ button:hover {
     width: 100%;
   }
 
-  .third .half {
+  .third, .half {
     width: 44%;
     margin-left: 4%;
     margin-right: 4%;
