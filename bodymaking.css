@@ -93,6 +93,10 @@ button:hover {
   transition: .5s ease;
 }
 
+.halves {
+  width: 45%;
+}
+
 .ratio img {
   object-fit: cover;
   aspect-ratio: 3 / 4;
