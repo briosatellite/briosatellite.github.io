@@ -75,7 +75,6 @@ button:hover {
   background-color: black;
   font-size: 14px;
   text-align: center;
-  color: transparent;
   float: left;
   position: relative;
 }
@@ -107,23 +106,17 @@ button:hover {
   aspect-ratio: 3 / 4;
 }
 
-.bios:hover img {
+.bios:hover img, .bios:focus img {
   opacity: 0.5;
   transition: .5s ease;
   background-color: #000000;
 }
 
-.bios:focus img {
-  opacity: 0.5;
-  transition: .5s ease;
-  background-color: #000000;
-}
-
-.bios a {
+.bios, .bios a {
   color: transparent;
 }
   
-.bios:hover a, .bios:focus a {
+.bios:hover, .bios:focus, .bios:hover a, .bios:focus a {
   color: white;
 }
 
