@@ -127,9 +127,9 @@ button:hover {
 }
 
 #frontpage {
-  top: 50%;
-  left: 50%;
-  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
   transform: translate(-50%, -50%);
   width: 40%;
   border: 1px solid blue;
