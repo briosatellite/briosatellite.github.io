@@ -130,7 +130,6 @@ button:hover {
   margin-top: 20%;
   margin-left: 22.5%;
   position: relative;
-  transform: translate(-50%, -50%);
   width: 40%;
   border: 1px solid blue;
   border-radius: 50%;
