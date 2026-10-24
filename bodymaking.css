@@ -77,9 +77,6 @@ button:hover {
   text-align: center;
   color: transparent;
   float: left;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-  width: 30%;
   position: relative;
 }
 
@@ -93,8 +90,16 @@ button:hover {
   transition: .5s ease;
 }
 
-.halves {
+.third {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+
+.half {
   width: 45%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
 }
 
 .ratio img {
@@ -163,12 +168,11 @@ button:hover {
   #folio {
     width: 100%;
   }
-  
-  #column {
+
+  .third .half {
     width: 44%;
     margin-left: 4%;
-    margin-top: 4%;
-  }
+    margin-right: 4%;
   
   #navigation {
     width: 92%;
