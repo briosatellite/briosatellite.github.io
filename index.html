@@ -1,15 +1,97 @@
 <!DOCTYPE html>
-<html id ="uptop">
+<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRIO</title>
-    <link rel="icon" type="image/x-icon" href="/UFiles/StarIcon.png">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body>
-hello?<br>
-  <a href=/bodymaking.html>Body-Making</a><br>
-  <a href=/ultrabody.html>Ultra Body</a><br>
-</body>
+    <link href="/bodymaking.css" rel="stylesheet" type="text/css" media="all">
+  <style>
+  #FixedBG {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/universal/mirrorBG.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+   img {
+  max-width: 100%;
+  display: block;
+  }
+  @media screen and (max-width: 900px) {
+   #FixedBG {
+    background-position: center top;
+    background-attachment: scroll;
+  }
+  }
+  
+  </style>
+  </head>
+  <body style="font-family = Courier">
+  <div id="FixedBG">
+  </div>
+  
+  <div id="container" style="margin-bottom: 2.5%">
+  <div id="navigation" style="color: white; text-align: center;">
+  <img src="assets/BrioBlue4.png" style="margin: auto;">
+  
+    <div id="container">
+  <h1><em>WELCOME</em></h1>
+    <a href="/bodymaking">PORTFOLIO</a><br>
+  <a href="/bodymaking">BODY-MAKING</a><br>
+    <a href="/ultrabody">ULTRA BODY</a><br>
+   
+  </div>
+  </div>
+  <div id="folio">
+    <div id="column" class="bios ratio" tabindex="-1">
+      <a href="/bodymaking"><img src="assets/bodymaking/carpark1.webp">
+      <div class="centered">
+      Body-Making (2026)
+      </div></a>
+    </div>
+    
+    <div id="column" class="bios ratio" tabindex="-1">
+       <a href="/ultrabody"><img src="assets/bodymaking/Ultra1.webp">
+      <div class="centered">
+      Ultra Body (2026)
+      </div></a>
+    </div>
+  
+    <div id="column" class="bios ratio" tabindex="-1">
+      <a href="/thegargoyle"><img src="assets/portfolio/gargoyle1.webp">
+      <div class="centered">
+      The Gargoyle (2024)
+      </div></a>
+    </div>
+
+    <div id="column" class="bios ratio columnAid" tabindex="-1">
+      <a href="/thegargoyle"><img src="assets/portfolio/tousle2.webp">
+      <div class="centered">
+      Outfits for the club <3
+      </div></a>
+    </div>
+
+    <div id="column" class="bios ratio" tabindex="-1">
+      <img src="assets/portfolio/faerie1.webp">
+      <div class="centered">
+      Freight Train to Faerie (2023)
+      </div>
+    </div>
+    
+   
+  </div>
+  
+    
+    
+  </div>
+  <br>
+  
+  
+  </body>
 </html>
