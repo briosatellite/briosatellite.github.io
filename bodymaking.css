@@ -133,9 +133,10 @@ button:hover {
   width: 60%;
   border: 1px solid blue;
   border-radius: 50%;
-  background-color: rgba (0,0,30, 0.7);
+  background-color: rgba(0,0,30,0.7);
   box-sizing: border-box;
   color: white;
+  aspect-ratio: 1 / 1;
 }
 
 .centered {
