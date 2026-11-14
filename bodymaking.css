@@ -162,6 +162,9 @@ button:hover {
   clear: left;
 }
 
+#lander {
+  width: 82%;
+
 @media screen and (max-width: 900px) {
 
   .columnAid {
