@@ -169,6 +169,7 @@ button:hover {
   background-color: rgba(0,0,70,0.5);
   border: 1px solid blue;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 @media screen and (max-width: 900px) {
