@@ -163,7 +163,8 @@ button:hover {
 }
 
 #lander {
-  width: 82%;
+  width: 90%;
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 900px) {
@@ -181,6 +182,7 @@ button:hover {
 
   #lander {
     width: 100%;
+    margin-top: 0;
   }
 
   .third {
