@@ -78,6 +78,7 @@ button:hover {
   font-size: 14px;
   float: left;
   position: relative;
+  color: white;
 }
 
 #column img {
@@ -119,6 +120,7 @@ button:hover {
   
 .bios:hover, .bios:focus, .bios:hover a, .bios:focus a {
   color: white;
+  transition: .5s ease;
 }
 
 #caption {
