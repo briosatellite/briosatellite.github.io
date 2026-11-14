@@ -95,7 +95,7 @@ button:hover {
 }
 
 .half {
-  width: 45%;
+  width: 46.25%;
   margin-left: 2.5%;
   margin-top: 2.5%;
 }
@@ -166,6 +166,9 @@ button:hover {
   width: 85%;
   margin-top: 3%;
   margin-left: 2.5%;
+  background-color: rgba(0,0,70,0.5);
+  border: 1px solid blue;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
@@ -185,6 +188,8 @@ button:hover {
     width: 100%;
     margin-top: 0;
     margin-left: 0;
+    background-color: none;
+    border: none;
   }
 
   .third {
