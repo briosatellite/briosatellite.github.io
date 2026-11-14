@@ -164,6 +164,7 @@ button:hover {
 
 #lander {
   width: 82%;
+}
 
 @media screen and (max-width: 900px) {
 
@@ -175,6 +176,10 @@ button:hover {
   }
   
   #folio {
+    width: 100%;
+  }
+
+  #lander {
     width: 100%;
   }
 
