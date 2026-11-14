@@ -19,7 +19,7 @@ h1 {
 }
 
 body {
-  color: black;
+  color: white;
   font-family: Courier;
   font-size: 14px;
   text-align: left;
@@ -78,7 +78,6 @@ button:hover {
   font-size: 14px;
   float: left;
   position: relative;
-  color: white;
 }
 
 #column img {
