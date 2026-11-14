@@ -170,6 +170,7 @@ button:hover {
   border: 1px solid blue;
   box-sizing: border-box;
   overflow: auto;
+  padding-bottom: 2.125%;
 }
 
 .blueAlt {
