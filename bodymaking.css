@@ -172,6 +172,10 @@ button:hover {
   overflow: auto;
 }
 
+.blueAlt {
+  background-color: rgba(0,0,0,0.5);
+}
+
 @media screen and (max-width: 900px) {
 
   .columnAid {
@@ -192,6 +196,10 @@ button:hover {
     background: none;
     border: none;
   }
+
+  .blueAlt {
+  background-color: rgba(0,0,30,0.7);
+}
 
   .third {
     width: 44%;
