@@ -57,6 +57,7 @@ button:hover {
   transform: translate(0, -50%);
   color: white;
   text-align: center;
+  font-size: 22;
 }
 
 #container {
