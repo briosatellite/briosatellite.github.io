@@ -84,7 +84,6 @@ button:hover {
 
 #column {
   box-sizing: border-box;
-  background-color: black;
   font-size: 14px;
   float: left;
   position: relative;
@@ -120,6 +119,7 @@ button:hover {
 
 .bios, .bios a {
   color: transparent;
+  background-color: black;
 }
   
 .bios:hover, .bios:focus, .bios:hover a, .bios:focus a {
