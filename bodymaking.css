@@ -174,11 +174,13 @@ button:hover {
 .blueAlt {
   background-color: rgba(0,0,0,0.5);
   border: 1px solid blue;
+  color: rgb(120,180,240)
 }
 
  .blue {
   background-color: rgba(0,0,30,0.7);
   border: 1px solid blue;
+   color: rgb(120,180,240)
 }
 
 @media screen and (max-width: 900px) {
