@@ -18,6 +18,11 @@ h1 {
   margin-bottom: 0;
 }
 
+ h {
+      color: violet;
+      font-style: normal;
+  }
+
 var {
       color: rgb(110,110,240);
       font-style: normal;
@@ -187,6 +192,14 @@ button:hover {
   border: 1px solid blue;
    color: rgb(120,180,240)
 }
+
+.blue a, .blueAlt a {
+      color: cyan;
+    }
+
+.blue a:hover, .blueAlt a:hover {
+      color: violet;
+    }
 
 @media screen and (max-width: 900px) {
 
