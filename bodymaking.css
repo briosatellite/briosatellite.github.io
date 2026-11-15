@@ -18,6 +18,11 @@ h1 {
   margin-bottom: 0;
 }
 
+var {
+      color: rgb(110,110,240);
+      font-style: normal;
+  }
+
 body {
   color: white;
   font-family: Courier;
