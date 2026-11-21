@@ -178,6 +178,10 @@ button:hover {
   display: block;
 }
 
+.mobileOnly {
+  display: none;
+}
+
 .columnAid {
   clear: left;
 }
@@ -280,5 +284,10 @@ button:hover {
 .desktopOnly {
   display: none;
 }
+
+.mobileOnly {
+  display: block;
+}
+
   
   
