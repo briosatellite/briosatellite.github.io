@@ -89,7 +89,19 @@ button:hover {
   position: relative;
 }
 
+.column {
+  box-sizing: border-box;
+  font-size: 14px;
+  float: left;
+  position: relative;
+}
+
 #column img {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.column img {
   border: 1px solid black;
   box-sizing: border-box;
 }
