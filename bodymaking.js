@@ -1,5 +1,5 @@
 function EZR() {
-var newHeight = document.getElementById('BMText').height;
+var newHeight = document.getElementById('BMText').offsetHeight;
 document.getElementById('Murmillo').style.height = newHeight + 'px';
       }
 
