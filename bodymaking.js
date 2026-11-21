@@ -1,7 +1,6 @@
 function updateHeight() {
-var newHeight = document.getElementById("BMText").height;
-        document.getElementById("Murmillo").style.height = newHeight + 'px';
-        return "hello???";
+var newHeight = document.getElementById('BMText').height;
+document.getElementById('Murmillo').style.height = newHeight + 'px';
       }
 
 function EZ() {
