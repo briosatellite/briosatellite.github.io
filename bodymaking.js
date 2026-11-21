@@ -1,7 +1,7 @@
 function EZR() {
 var newHeight = document.getElementById('BMText').offsetHeight;
 var oldHeight = document.getElementById('Murmullo').offsetHeight;
-      if oldHeight != newHeight {
+      if (oldHeight != newHeight) {
 document.getElementById('Murmillo').style.height = newHeight + 'px';
       }
       }
