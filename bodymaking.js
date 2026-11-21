@@ -1,4 +1,4 @@
-function updateHeight() {
+function EZR() {
 var newHeight = document.getElementById('BMText').height;
 document.getElementById('Murmillo').style.height = newHeight + 'px';
       }
