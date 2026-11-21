@@ -86,15 +86,17 @@ rhythm of the process, and the tendon-wear of repetition
 in cutting, bevelling, and burnishing piece after piece.
 The practice is fun, and the work is very cool.
     <script>
-      var offsetHeight = this.parentElement.offsetHeight;
+      let offsetHeight = this.parentElement.offsetHeight;
     </script>
     </div>
 
 <div id="column" class="ratio">
 <img src="assets/bodymaking/murmillo1.webp">
- <script> {
+ <script> 
+  function setHeight() {
       this.parentElement.style.height = 'offsetHeight';
-      }
+  }
+  onload="setHeight()";
     </script>
 </div>
     
