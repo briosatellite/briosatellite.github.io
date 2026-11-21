@@ -1,4 +1,4 @@
-function updateHeight() {
-        var newHeight = document.getElementById('BMText').offsetHeight;
+$window.onload function updateHeight() {
+        let newHeight = document.getElementById('BMText').offsetHeight;
         document.getElementById("Murmillo").style.height = newHeight;
       }
