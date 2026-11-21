@@ -1,5 +1,5 @@
 function updateHeight() {
-let newHeight = document.getElementById("BMText").height;
+var newHeight = document.getElementById("BMText").height;
         document.getElementById("Murmillo").style.height = newHeight;
         return "hello???";
       }
