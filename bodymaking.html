@@ -62,7 +62,7 @@
     </div> 
 <div class="centerElements" style="float: left";>
   <div id="BMText" class="column ratio half blue" style="padding: 2%; height: fit-content;">
-     <h>BODY-MAKING</h><br><br><p class="desktopOnly">
+     <h>BODY-MAKING</h><br><br>
     Body-Making models a changing body in heavy leather, 
 insulated wire stitching, and metal fixings. It exists in 
 recursive dialogue with self-image, alternately accepting 
@@ -70,7 +70,7 @@ or rejecting the influences thereof. Desire, ability, limitation,
 and injury are voiced in the pieces, hand-carved from veg 
 tan leather and pieced together with yellow zinc bolts.<br><br>
 
-<var>The ensemble rests like an armoured shell over the body,
+<p id="extraText" class="desktopOnly"><var>The ensemble rests like an armoured shell over the body,
 secured closely with straps and saddle-stitched buckles.
 A waist harness murmurs of sexuality; pauldrons bargain
 with dysphoria. Between them, a kidney belt lashes out
@@ -85,29 +85,32 @@ modular construction the ensemble remains open to
 further evolution. I’m also inclined to forefront the 
 leatherworking process itself and document my relation 
 to tools, realised through a captioned photo series 
-showcased below. <br><br>
+showcased below. <br><br></p>
 
 <var>Alongside the ensemble look, I have made a short fashion film, 
 titled {Body-Making} Ambient Cut. This was filmed by Dwayne 
 Tillman, a writer and director who I have collaborated with 
 previously on <a href="/thegargoyle">The Gargoyle (2024)</a>. Iz Butcher, an experimental 
 musician and the lead guitarist of OH! Daisy, provided a music 
-track which brought it all together.</var></p>
-    <p class="mobileOnly">
-      Body-Making models a changing body in heavy leather, 
-insulated wire stitching, and metal fixings. It exists in 
-recursive dialogue with self-image, alternately accepting 
-or rejecting the influences thereof. Desire, ability, limitation, 
-and injury are voiced in the pieces, hand-carved from veg 
-tan leather and pieced together with yellow zinc bolts.<br><br>
-<var>Alongside the ensemble look, I have made a short fashion film, 
-  titled {Body-Making} Ambient Cut. This was filmed by Dwayne Tillman, 
-  a writer and director who I have collaborated with previously on 
-  <a href="/thegargoyle">The Gargoyle (2024)</a>. Iz Butcher, an experimental musician and the 
-  lead guitarist of OH! Daisy, provided a music track which brought 
-  it all together.</var></p>
-      
+track which brought it all together.</var>    
 
+    <script>
+      window.addEventListener('resize', function() {
+    removeExtra();
+    });
+
+      function removeExtra() {
+      var imgHeight = document.getElementById('Murmillo').offsetHeight;
+      var textHeight = document.getElementById('BMText').offsetHeight;
+      if (textHeight > (imgHeight + imgHeight)) {
+    document.getElementById('extraText').style.display = none;
+      }
+      else {
+    document.getElementById('extraText').style.display = inline;
+      }
+      }
+        
+    </script>
     </div>
 
 <div id="Murmillo" class="column ratio half desktopOnly" style="width: fit-content; max-width: 46.25%; margin-right: 2.5%;">
