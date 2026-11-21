@@ -1,3 +1,7 @@
+window.addEventListener('resize', function() {
+    EZR();
+});
+      
 function EZR() {
 var newHeight = document.getElementById('BMText').offsetHeight;
 document.getElementById('Murmillo').style.height = newHeight + 'px';
