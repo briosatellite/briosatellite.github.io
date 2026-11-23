@@ -76,6 +76,12 @@ button:hover {
   box-sizing: border-box;
 }
 
+.container {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 #folio {
   float: left;
   width: 85%;
