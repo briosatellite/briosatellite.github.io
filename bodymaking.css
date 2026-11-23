@@ -229,14 +229,14 @@ button:hover {
 
 .grayscale {
   background-color: rgba(0,0,0,0.7);
-  color: lightgrey;
+  color: bisque;
 
-.grayscale h {
-  color: orangered;
+.grayscale a {
+  color: peru;
 }
 
-.grayscale var {
-  color: orange;
+.grayscale a:hover {
+  color: white;
 }
   
 
