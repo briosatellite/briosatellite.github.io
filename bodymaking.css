@@ -230,6 +230,7 @@ button:hover {
 .grayscale {
   background-color: rgba(0,0,0,0.7);
   color: bisque;
+}
 
 .grayscale a {
   color: peru;
