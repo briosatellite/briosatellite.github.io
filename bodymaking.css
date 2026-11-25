@@ -1,5 +1,7 @@
 /* Style sheet for BrioSatellite. */
 
+/* Basics. */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -11,22 +13,6 @@ a {
 a:hover {
   color: violet;
 }
-
-h1 {
-  font-size: 24px;
-  font-weight: normal;
-  margin-bottom: 0;
-}
-
- h {
-      color: violet;
-      font-style: normal;
-  }
-
-var {
-      color: rgb(110,110,240);
-      font-style: normal;
-  }
 
 body {
   color: white;
@@ -58,81 +44,23 @@ button:hover {
   cursor: pointer;
 }
 
-#navigation {
-  float: left;
-  box-sizing: border-box;
-  width: 13%;
-  margin-left: 2%;
-  position: sticky;
-  top: 25%;
-  color: white;
-  text-align: center;
-  line-height: 2;
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
-#container {
-  float: left;
-  width: 100%;
-  box-sizing: border-box;
-}
+ h {
+      color: violet;
+      font-style: normal;
+  }
 
-.container {
-  float: left;
-  width: 100%;
-  box-sizing: border-box;
-}
+var {
+      color: rgb(110,110,240);
+      font-style: normal;
+  }
 
-#folio {
-  float: left;
-  width: 85%;
-}
-
-#column {
-  box-sizing: border-box;
-  font-size: 14px;
-  float: left;
-  position: relative;
-}
-
-.column {
-  box-sizing: border-box;
-  font-size: 14px;
-  float: left;
-  position: relative;
-}
-
-#column img {
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.column img {
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.third {
-  width: 30%;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-}
-
-.thirdAlt {
-  width: 30%;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-}
-
-.half {
-  width: 46.25%;
-  margin-left: 2.5%;
-  margin-top: 2.5%;
-}
-
-.ratio img {
-  object-fit: cover;
-  aspect-ratio: 3 / 4;
-}
+/* Custom classes. */
 
 .bios:hover img, .bios:focus img {
   opacity: 0.5;
@@ -150,24 +78,24 @@ button:hover {
   transition: .5s ease;
 }
 
-#caption {
-  border: 1px solid black;
-  background-color: white;
-  padding: 1%;
-  margin-top: 2%;
+.blue {
+  background-color: rgba(0,0,30,0.7);
+  border: 1px solid blue;
+   color: rgb(120,180,240)
 }
 
-#frontpage {
-  margin-top: 20%;
-  margin-left: 22.5%;
-  position: relative;
-  width: 40%;
+.blue a, .blueAlt a {
+      color: cyan;
+    }
+
+.blue a:hover, .blueAlt a:hover {
+      color: violet;
+    }
+
+.blueAlt {
+  background-color: rgba(0,0,0,0.5);
   border: 1px solid blue;
-  border-radius: 50%;
-  background-color: rgba(0,0,30,0.7);
-  box-sizing: border-box;
-  color: white;
-  aspect-ratio: 1 / 1;
+  color: rgb(120,180,240)
 }
 
 .centered {
@@ -190,48 +118,37 @@ button:hover {
   justify-content: center;
 }
 
-.desktopOnly {
-  display: block;
+.container {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.mobileOnly {
-  display: none;
+.column {
+  box-sizing: border-box;
+  font-size: 14px;
+  float: left;
+  position: relative;
+}
+
+.column img {
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .columnAid {
   clear: left;
 }
 
-#lander {
-  width: 85%;
-  margin-top: 3%;
+.desktopOnly {
+  display: block;
+}
+
+.half {
+  width: 46.25%;
   margin-left: 2.5%;
-  background-color: rgba(0,0,70,0.5);
-  border: 1px solid blue;
-  box-sizing: border-box;
-  overflow: auto;
-  padding-bottom: 2.125%;
+  margin-top: 2.5%;
 }
-
-.blueAlt {
-  background-color: rgba(0,0,0,0.5);
-  border: 1px solid blue;
-  color: rgb(120,180,240)
-}
-
-.blue {
-  background-color: rgba(0,0,30,0.7);
-  border: 1px solid blue;
-   color: rgb(120,180,240)
-}
-
-.blue a, .blueAlt a {
-      color: cyan;
-    }
-
-.blue a:hover, .blueAlt a:hover {
-      color: violet;
-    }
 
 .grayscale {
   background-color: rgba(0,0,0,0.7);
@@ -246,6 +163,9 @@ button:hover {
   color: white;
 }
   
+.mobileOnly {
+  display: none;
+}
 
 .noselect {
   -webkit-touch-callout: none;
@@ -256,19 +176,108 @@ button:hover {
             user-select: none;
 }
 
+.ratio img {
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+.third {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+
+.thirdAlt {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+
+/* IDs. */
+
+#folio {
+  float: left;
+  width: 85%;
+}
+
+#frontpage {
+  margin-top: 20%;
+  margin-left: 22.5%;
+  position: relative;
+  width: 40%;
+  border: 1px solid blue;
+  border-radius: 50%;
+  background-color: rgba(0,0,30,0.7);
+  box-sizing: border-box;
+  color: white;
+  aspect-ratio: 1 / 1;
+}
+
+#lander {
+  width: 85%;
+  margin-top: 3%;
+  margin-left: 2.5%;
+  background-color: rgba(0,0,70,0.5);
+  border: 1px solid blue;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-bottom: 2.125%;
+}
+
+#navigation {
+  float: left;
+  box-sizing: border-box;
+  width: 13%;
+  margin-left: 2%;
+  position: sticky;
+  top: 25%;
+  color: white;
+  text-align: center;
+  line-height: 2;
+}
+
+/* Screen size alterations. */
+
 @media screen and (max-width: 900px) {
 
+  #body {
+    font-family: arial;
+  }
+
+  .blueAlt {
+  background-color: rgba(0,0,30,0.7);
+  }
+
+  .centered {
+  width: 96%;
+  }
+
+  .centerElements {
+  display: inline;
+  }
+  
   .columnAid {
     clear: none;
   }
-  #body {
-    font-family: arial;
+
+  .desktopOnly {
+  display: none;
+  }
+
+  #FixedBG {
+  background-position: center top;
   }
   
   #folio {
     width: 100%;
   }
 
+  .half {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+    
   #lander {
     width: 100%;
     margin-top: 0;
@@ -277,22 +286,6 @@ button:hover {
     border: none;
   }
 
-  .blueAlt {
-  background-color: rgba(0,0,30,0.7);
-}
-
-  .third {
-    width: 44%;
-    margin-left: 4%;
-    margin-top: 4%;
-  }
-
-  .half {
-    width: 92%;
-    margin-left: 4%;
-    margin-top: 4%;
-  }
-  
   #navigation {
     width: 92%;
     margin-top: 0;
@@ -303,25 +296,13 @@ button:hover {
     transform: none;
   }
   
-  #FixedBG {
-    background-position: center top;
+  .mobileOnly {
+    display: block;
   }
-
-.centered {
-  width: 96%;
-}
-
-.centerElements {
-  display: inline;
-}
-
-.desktopOnly {
-  display: none;
-}
-
-.mobileOnly {
-  display: block;
-}
-
   
+  .third {
+    width: 44%;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
   
